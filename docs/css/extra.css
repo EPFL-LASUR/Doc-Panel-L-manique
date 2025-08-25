@@ -16,3 +16,23 @@
 p {
   text-align: justify;
 }
+
+.md-header .md-search {
+    position: absolute;
+    right: 720px;   
+    top: 1.5px;    
+    width: 250px; 
+}
+
+.md-header::after {
+    content: '';
+    position: absolute;
+    right: 630px;
+    top: -9px;
+    width: 80px;
+    height: 80px;
+    background-image: url('/images/EPFL_logo.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
