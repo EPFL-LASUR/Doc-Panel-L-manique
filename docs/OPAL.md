@@ -1,5 +1,21 @@
 # OPAL
 
+## Introduction
+
+Les données du Panel Lémanique sont stockées sur OPAL, une application mise à disposition par OBiBa. OPAL sert à créer des référentiels de données centraux pour les études, qui intègrent sous une interface uniforme les données collectées à partir de multiples sources. Ainsi, grâce à OPAL, les études peuvent importer, valider, dériver, interroger, rapporter, analyser et exporter des données. ([Plus sur OBiBA](https://www.obiba.org/)).
+
+Afin d'accéder aux données sur OPAL depuis une interface R, il est nécessaire d'installer le package `opalr`:
+
+```r
+# install from CRAN
+install.packages("opalr")
+
+# or install latest development version
+remotes::install_github("obiba/opalr")
+```
+
+Pour plus d'informations, la [documentation OPAL](https://www.obiba.org/opalr/) est la [documentation R](https://www.r-project.org/) sont à disposition.
+
 ## Login
 
 ## Accès aux données
