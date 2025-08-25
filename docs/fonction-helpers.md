@@ -1,6 +1,6 @@
 # Fonction helpers
 
-Afin de permettre une meilleure visualisation des données de chaque vague, un fichier `helpers` par vague a été crée. Ces fichiers contiennent des fonctions qui permettent de séparer et trier les informations contenues dans les données brutes.
+Afin de permettre une meilleure visualisation des données de chaque vague, un fichier `helpers` a été créé pour chaque vague. Ces fichiers contiennent des fonctions qui permettent de séparer et trier les informations contenues dans les données brutes.
 
 Ces fichiers sont tous semblables les uns aux autres. Néanmoins, du à la structure des données brutes, il est compliqué d'implémenter une seule fonction permettant de permettant d'obtenir le même résultat sur toutes les vagues. C'est pourquoi une fonction helpers par vague a été crée, afin de s'adapter aux spécifités structurelles de chaque vague. Afin de distinguer ces fonctions similaires, un suffixe a été rajouté dans leur nom afin d'indiquer sur quelle vague elles peuvent être utilisées (e.g. `participants_wave1()` pour obtenir les informations sur les participant·es dans la vague 1).
 
