@@ -1,9 +1,20 @@
 site_name: Documentation Panel Lémanique
 theme:
   name: material
+  language: fr
+  palette:
+    primary: custom
+  logo: images/Logo-Panel.png
   
 nav:
   - Accueil: index.md
   - OPAL: OPAL.md
   - Fonction Helpers: fonction-helpers.md
   - Méthodes R: MethodesR.md
+  - Contact: contact.md
+  
+extra_css:
+  - css/extra.css
+  
+markdown_extensions:
+  - attr_list
