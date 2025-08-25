@@ -1,0 +1,9 @@
+site_name: Documentation Panel Lémanique
+theme:
+  name: material
+  
+nav:
+  - Accueil: index.md
+  - OPAL: OPAL.md
+  - Fonction Helpers: fonction-helpers.md
+  - Méthodes R: MethodesR.md
