@@ -8,9 +8,9 @@ theme:
   
 nav:
   - Accueil: index.md
+  - R: MethodesR.md
   - OPAL: OPAL.md
-  - Fonction Helpers: fonction-helpers.md
-  - Méthodes R: MethodesR.md
+  - Package panlemhelpers: fonction-helpers.md
   - Contact: contact.md
   
 extra_css:
