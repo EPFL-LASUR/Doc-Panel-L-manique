@@ -1,6 +1,16 @@
-# Méthodes R
+# R
 
-Dans ce chapitre, quelques méthodes d’analyse en R vont être présentées. Il s’agit bien sûr d’une liste non-exhaustive, et il existe toute une documentation sur d’autres méthodes de R ([Documentation R](https://www.r-project.org/other-docs.html)). Les outils présentés dans ce chapitre sont néanmoins des classiques pour l’analyse de données tel que celles du Panel Lémanique.
+## Installation
+
+R est un language informatique utilisé majoritairement pour faire de l'analyse de données et des statistiques. Il est particulièrement adapté pour analyser les données du Panel Lémanique. Pour installer la dernière version, voir le site du [CRAN](https://cran.r-project.org/).
+
+Il existe une multitude de documentation sur R. Pour la trouver, vous pouvez vous rendre sur le site du [R Project](https://www.r-project.org/) ou lire cette [documentation](https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf).
+
+R peut être tourné sur une multitude de logiciels. Il est conseillé d'utiliser RStudio, que vous pouvez télécharger sur [Posit](https://posit.co/download/rstudio-desktop/). Vous y trouverez aussi un lien pour aller télécharger la dernière version de R. Il est également possible de tourner R sur Visual Studio Code ([Download](https://code.visualstudio.com/download)). N'oubliez pas de télécharger [l'extension R](https://code.visualstudio.com/docs/languages/r) ! Et si vous voulez faire tourner R sur un autre logiciel... well, dans ce cas, je pense que vous n'avez plus besoin de documentation de ma part.
+
+## Méthodes R
+
+Dans ce paragraphe, quelques méthodes d’analyse en R vont être présentées. Il s’agit bien sûr d’une liste non-exhaustive, et il existe toute une documentation sur d’autres méthodes de R ([Documentation R](https://www.r-project.org/other-docs.html)). Les outils présentés dans ce chapitre sont néanmoins des classiques pour l’analyse de données tel que celles du Panel Lémanique.
 
 -   Sélectionner une ligne pour un·e certain·e participant·e: `df <- df[df$participant_cde == "FR036"]`
 
@@ -16,7 +26,9 @@ Dans ce chapitre, quelques méthodes d’analyse en R vont être présentées. I
 plot(x, y, type="b", pch=4, col="red", xlab="titre axe X", ylab="titre axe Y", main="titre graphique")
 ```
 
-    Pour des paramètres plus avancés, le package `ggplot2` peut être utilisé.
+```         
+Pour des paramètres plus avancés, le package `ggplot2` peut être utilisé.
+```
 
 -   Faire une régression linéaire (si la variable dépendante Y est continue)
 
