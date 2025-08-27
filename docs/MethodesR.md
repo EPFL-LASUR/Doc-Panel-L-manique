@@ -25,10 +25,8 @@ Dans ce paragraphe, quelques méthodes d’analyse en R vont être présentées.
 ``` r
 plot(x, y, type="b", pch=4, col="red", xlab="titre axe X", ylab="titre axe Y", main="titre graphique")
 ```
-
-```         
 Pour des paramètres plus avancés, le package `ggplot2` peut être utilisé.
-```
+
 
 -   Faire une régression linéaire (si la variable dépendante Y est continue)
 

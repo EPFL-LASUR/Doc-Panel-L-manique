@@ -12,6 +12,8 @@ install.packages("opalr")
 
 # or install latest development version
 remotes::install_github("obiba/opalr")
+
+library(opalr)
 ```
 
 Pour plus d'informations, la [documentation OPAL](https://www.obiba.org/opalr/) est la [documentation R](https://www.r-project.org/) sont à disposition.
