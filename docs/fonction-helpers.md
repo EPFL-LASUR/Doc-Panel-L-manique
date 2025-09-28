@@ -9,7 +9,7 @@ install.packages("remotes")
 remotes::install_github("EPFL-LASUR/panlemhelpers")
 ```
 
-Pour chaque vague du Panel Lémanique, six fonctions ont été créée. Elles sont fondamentalement similaires à travers les vagues, néanmoins, dû à la structure des données brutes, il était compliqué d'implémenter une seule fonction permettant d'obtenir le même résultat pour toutes les vagues (pour les informaticien·nes: oui, oui, je sais, c'est absolument ignoble... but time and money baby). Afin de distinguer ces fonctions similaires, un suffixe a été rajouté dans leur nom afin d'indiquer sur quelle vague elles peuvent être utilisées (e.g. `get_participants_wave1()` pour obtenir les informations sur les participant·es dans la vague 1).
+Pour chaque vague du Panel Lémanique, six fonctions ont été créées. Elles sont fondamentalement similaires à travers les vagues, néanmoins, dû à la structure des données brutes, il était compliqué d'implémenter une seule fonction permettant d'obtenir le même résultat pour toutes les vagues (pour les informaticien·nes: oui, oui, je sais, c'est absolument ignoble... but time and money baby). Afin de distinguer ces fonctions similaires, un suffixe a été rajouté dans leur nom afin d'indiquer sur quelle vague elles peuvent être utilisées (e.g. `get_participants_wave1()` pour obtenir les informations sur les participant·es dans la vague 1).
 
 On distingue six différentes fonctions helpers qui sont présentées ci-dessous.
 

@@ -12,7 +12,7 @@ R peut être tourné sur une multitude de logiciels. Il est conseillé d'utilise
 
 Dans ce paragraphe, quelques méthodes d’analyse en R vont être présentées. Il s’agit bien sûr d’une liste non-exhaustive, et il existe toute une documentation sur d’autres méthodes de R ([Documentation R](https://www.r-project.org/other-docs.html)). Les outils présentés dans ce chapitre sont néanmoins des classiques pour l’analyse de données tel que celles du Panel Lémanique.
 
--   Sélectionner une ligne pour un·e certain·e participant·e: `df <- df[df$participant_cde == "FR036"]`
+-   Sélectionner une ligne pour un·e certain·e participant·e: `df <- df[df$participant_code == "FR036"]`
 
 -   Sélectionner une certaine colonne: `df <- df$name_column`
 
